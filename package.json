@@ -1,15 +1,8 @@
-"name": "eatdaburger",
+{
+  "name": "hw14",
   "version": "1.0.0",
-  "description": "A fun app that lets user input buger they want to eat using Node, Express, and Handlebars",
+  "description": "Week 14 - UCF Coding Bootcamp - Homework",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.6",
-    "mysql": "^2.11.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -18,10 +11,18 @@
     "type": "git",
     "url": "git+https://github.com/njd1228/hw14.git"
   },
-  "author": "Nicholas Donato",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/njd1228/hw14/issues"
   },
-  "homepage": "https://github.com/njd1228/hw14#readme"
+  "homepage": "https://github.com/njd1228/hw14#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^3.0.0",
+    "mysql": "^2.16.0"
+  }
 }
