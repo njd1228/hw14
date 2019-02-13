@@ -47,12 +47,13 @@ var orm = {
       console.log(queryString)
 
       connection.query(queryString, vals, function(err, result) {
-        if (err) throw err;
+        if (err) {
+          throw err;
+        }
         cb(result);
       });
     },
-    //objColVals would be the columns and values that you want to update
-    //an example of objColVals would be {name: panther, sleepy: true}
+    
     update: function(table, objColVals, condition, cb) {
       var queryString = 'UPDATE ' + table;
 
