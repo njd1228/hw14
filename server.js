@@ -24,7 +24,7 @@ app.use('/', routes);
 app.use('/update', routes);
 app.use('/create', routes);
 
-var port = 3036;
-app.listen(port);
+var PORT = process.env.PORT || 3036;
+app.listen(PORT, function() {
 
 console.log(module.exports)
